@@ -167,6 +167,9 @@
         padding: 1.5rem 3rem;
         position: relative;
         z-index: 15;
+
+        display: flex;
+        align-items: center;
     }
 
     &__icon{
