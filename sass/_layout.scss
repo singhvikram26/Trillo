@@ -7,9 +7,16 @@
 }
 
 .header{
+    font-size: 1.4rem;
     height: 7rem;
     background-color: #fff;
     border-bottom: var(--color-grey-light-2);
+
+    display: flex;
+    //this will allign the element along the main axis
+    justify-content: space-between;
+    //to align vertically in center we use align property
+    align-items: center;
 }
 
 .content{
