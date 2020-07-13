@@ -42,6 +42,7 @@
 }
 
 .detail{
+    font-size: 1.4rem;
     display: flex;
     padding: 4.5rem;
     background-color: var(--color-grey-light-1);
@@ -49,7 +50,6 @@
 }
 
 .description{
-    font-size: 1.4rem;
     background-color: #fff;
     flex: 0 0 60%;
     margin-right: 4.5rem;
@@ -58,6 +58,10 @@
 }
 
 .user-reviews{
-    background-color: greenyellow;
     flex: 1;
+
+    display: flex;
+    flex-direction: column;
+    //default align-item value is set to stretch
+    align-items: center;
 }
