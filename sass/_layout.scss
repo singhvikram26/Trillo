@@ -10,7 +10,7 @@
     font-size: 1.4rem;
     height: 7rem;
     background-color: #fff;
-    border-bottom: var(--color-grey-light-2);
+    border-bottom: 1px solid var(--color-grey-light-2);
 
     display: flex;
     //this will allign the element along the main axis
@@ -37,7 +37,7 @@
 .hotel-view{
     background-color: #fff;
 
-    background-color: orange;
+    //Test---------------------
     height: 80rem;
 
     //this will fill the remaining place available in content box this is 82%
